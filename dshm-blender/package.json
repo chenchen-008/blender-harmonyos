@@ -1,0 +1,47 @@
+{
+  "name": "@dsh-external/dshm-blender",
+  "version": "0.1.0",
+  "description": "DSHM 端侧 Blender 直连插件：纯 JS TCP 通道 + Blender 侧 addon，让模型看视口、读场景、跑 Python、导出模型。同机使用需分屏保持 Blender 可见。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "addon",
+    "docs",
+    "README.md",
+    "cordis.patch.yml"
+  ],
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dshm",
+    "blender",
+    "harmonyos",
+    "bpy"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc <2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "test": "node tests/setup.mjs && node tests/selftest.mjs && node tests/integration.mjs && node tests/no_spawn_selftest.mjs"
+  }
+}

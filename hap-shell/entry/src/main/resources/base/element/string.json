@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Blender for HarmonyOS"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Blender 3D modeling, animation, and rendering."
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Blender"
+    },
+    {
+      "name": "reason_read_write_user_file",
+      "value": "读写 .blend 项目文件、贴图、导入/导出模型。"
+    },
+    {
+      "name": "reason_file_access_persist",
+      "value": "记住最近打开的项目路径，方便下次直接打开。"
+    },
+    {
+      "name": "reason_internet",
+      "value": "下载 Blender 插件、检查资源更新。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Build outputs and caches
+node_modules/
+oh_modules/
+__pycache__/
+*.pyc
+.hvigor/
+entry/build/
+entry/.cxx/
+entry/libs/
+entry/src/main/resources/rawfile/
+*.hap
+*.tgz
+*.so
+*.a
+*.o
+
+# Local SDK / signing
+local.properties
+*.p12
+*.cer
+*.p7b
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

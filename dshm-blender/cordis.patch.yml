@@ -1,0 +1,5 @@
+# DSHM Blender plugin: one Loader row, tools are registered on ctx.tools.
+- insert:
+    - id: dshm-blender
+      name: '@dsh-external/dshm-blender'
+      config: {}
