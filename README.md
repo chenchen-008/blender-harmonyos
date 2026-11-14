@@ -111,4 +111,6 @@ HAP 作为 GitHub Release 资产发布：
 
     Blender-4.5.16-OHOS-arm64.hap
 
+https://github.com/chenchen-008/blender-harmonyos/releases/tag/v4.5.16-ohos
+
 安装前请确认设备已开启调试、允许安装测试签名包。
