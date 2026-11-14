@@ -29,6 +29,8 @@
 | tools/ | 依赖分析、NEEDED 修补、headless worker 源码 |
 | docs/ | 构建、EEVEE 限制、headless PoC 等记录 |
 
+安装踩坑集中记录：dshm-blender/docs/安装经验-总表.md，包括 namespace、el1/el2、NEEDED、libpython 等。
+
 完整 Blender 源码不放进 Git 仓库，构建时从 Blender 4.5.16 源码树应用 ohos-patches/。
 
 ## 构建
